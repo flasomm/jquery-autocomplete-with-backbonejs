@@ -6,7 +6,7 @@ define([
 
    var CitiesCollection = Backbone.Collection.extend({
       model: City,
-      url: "http://ws.geonames.org/searchJSON",
+      url: "http://api.geonames.org/searchJSON",
                      
 		initialize: function () {},
 
